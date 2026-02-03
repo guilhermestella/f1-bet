@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<bet_user id="1" username="admin" password="aaa" balance="100"/>
+</dataset>
