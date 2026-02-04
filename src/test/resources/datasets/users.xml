@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
 	<bet_user id="1" username="admin" password="aaa" balance="100"/>
+	<bet_user id="2" username="foo" password="foo" balance="100"/>
+	<bet_user id="3" username="bar" password="bar" balance="100"/>
 </dataset>

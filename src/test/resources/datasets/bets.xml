@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<bet id="1" code="31993336-43dd-4303-9ea1-dbd588d86bc5" user_id="1" event_key="1" driver_number="1" amount="80"/>
+	<bet id="2" code="1df85fb6-5420-4730-a3cd-4b18359a0a39" user_id="2" event_key="1" driver_number="2" amount="50"/>
+	<bet id="3" code="0ebdb431-4130-45cb-a873-f3cea41aa037" user_id="3" event_key="1" driver_number="2" amount="60"/>
+</dataset>
