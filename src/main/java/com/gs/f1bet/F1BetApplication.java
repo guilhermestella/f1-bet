@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @EnableFeignClients
 @SpringBootApplication
@@ -32,7 +33,19 @@ public class F1BetApplication {
                     .balance(BigDecimal.valueOf(100))
                     .build();
 
-            userRepository.save(admin);
+            var foo = User.builder()
+                    .username("foo")
+                    .password(passwordEncoder.encode("foo"))
+                    .balance(BigDecimal.valueOf(100))
+                    .build();
+
+            var bar = User.builder()
+                    .username("bar")
+                    .password(passwordEncoder.encode("bar"))
+                    .balance(BigDecimal.valueOf(100))
+                    .build();
+
+            userRepository.saveAll(List.of(admin, foo, bar));
         };
     }
 }
